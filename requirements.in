@@ -1,0 +1,10 @@
+Django<3.0
+djangorestframework
+django-widget-tweaks
+fasteners
+Pillow
+psycopg2-binary
+django-registration
+django-friendly-tag-loader
+fs
+django-configurations
