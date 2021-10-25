@@ -155,8 +155,6 @@ class Base(Configuration):
             }
         }
 
-    class Dev(Configuration):
-    DEBUG = True
 
     @classmethod
     def post_setup(cls):
