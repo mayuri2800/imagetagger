@@ -224,7 +224,7 @@ class Dev(Base):
     SECRET_KEY = values.Value(environ_prefix='IT', default='DEV-KEY ONLY! DONT USE IN PRODUCTION!')
     DB_HOST = values.Value(environ_prefix='IT', default='localhost')
     DB_PASSWORD = values.Value(environ_prefix='IT', default='imagetagger')
-    ALLOWED_HOSTS = values.ListValue(environ_prefix='IT', default=['localhost', '127.0.0.1'])
+    ALLOWED_HOSTS = values.ListValue(environ_prefix='IT', default=['localhost', '127.0.0.1','imagetagger1234.herokuapp.com'])
     DOWNLOAD_BASE_URL = values.Value(environ_prefix='IT', default='localhost')
 
 
